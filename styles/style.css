@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5ed;
+    
+}
+
+
+nav{
+padding: 20px 10%;
+height: 15vh;
+}
+
+nav ul{
+display: flex;
+align-items: center;
+}
+
+nav li{
+list-style: none;
+margin-right: 10%;
+font-weight: 600;
+
+
+}
+
+a{
+text-decoration: none;
+cursor: pointer;
+}
+
+nav ul li a:hover{
+font-size: large;
+text-decoration: underline;
+
+}
+
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.herosectionleft{
+width: 40%;
+}
+
+.herosectionleft h1{
+font-size: 60px;
+}
+
+.herosectionleft p{
+margin: 5% 0;
+
+}
+
+.herosectionleft button{
+padding: 15px 20px;
+font-size: 15px;
+font-weight: 600;
+color: white;
+border: none;
+background-color: #3b855b;
+border-radius: 10px;
+}
+
+.herosectionleft button:hover{
+color: #3b855b;
+background-color: #f9f5ed;
+border: 1px solid #3b855b;
+cursor: pointer;
+
+
+}
+
+.herosectionright{
+padding: 7%;
+
+}
+
+.herosectionright img{
+    border-radius: 50px;
+    
+
+
+}
